@@ -1,0 +1,26 @@
+button#btnpress{
+	    padding-left: 15px;
+    padding-right: 15px;
+    background-color: cadetblue;
+    border: transparent;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #fff;
+}
+button#btnpress:hover{
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+input#number{
+	text-indent: 10px;
+}
+@media(max-width:425px ){
+
+	div#colmd4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		min-height: 260px !important;
+	}
+	
+}

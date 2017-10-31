@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Simple Ping pong Game Created By KarisYg , A Rising Programmer">
+    <meta name="author" content="Peter Kariuki Mutuura ;Kariukipeter30@gmail.com ,Karisyg">
     <link rel="icon" href="img/peterkariukimutuura.PNG">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Ping Pong Game</title>
 
     <!-- Bootstrap core CSS -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
   </head>
 
@@ -33,7 +33,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">&copy Kariukipeter30@gmail.com</a></li>
+            <li class="active"><a href="#"> Kariukipeter30@gmail.com</a></li>
 
           </ul>
         </div><!--/.nav-collapse -->
@@ -41,15 +41,60 @@
     </nav>
 
     <div class="container">
-      <div class="row text-center" >
+<!--       <div class="row text-center" >
         
         <div class="starter-template">
           <h1>Ping Pong Game</h1>
           <p class="lead">From IP3</p>
         </div>
+      </div> -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2" style="background-color: #f5dfb3; border:2px solid #fff;">
+          <div class="row" style="text-align: center;">
+            <h2 style="color: #000;">Ping Pong Game</h2>
+            
+          </div><hr>
+          <div  class="row" style="min-height: 515px; ">
+            <div id="colmd4" class="col-md-4" style="background-color: #284b50; min-height: inherit;">
+              <h5 style="color: #ff9d26;">About Ping Pong</h5>
+              <p style="color: #81f7ee;">Created By</p>
+              <h5>KarisYg</h5>
+              <p style="color: #81f7ee;">Github Username</p>
+              <h5>Karisyg</h5>
+              <p style="color: #81f7ee;">Level 2 Test for</p>
+              <h5>JavaScript</h5>
+
+            </div>
+            <div class="col-md-8" style="color: #000;">
+              <h5 style="color: #284b50;">Let's Play</h5>
+              <p>Rules:</p>
+              <small>Ping Pong count up to your number from 1 with thw following exceptions.</small>
+              <ul>
+                  <li>Numbers divisible by 3 becomes "ping"</li>
+                  <li>Numbers divisible by 5 becomes "pong"</li>
+                  <li>Numbers divisible by 15 becomes "pingpong"</li>
+                  
+              </ul>
+              <p id="enternumber">
+                Enter Number Here:
+                <input id="number" > <button id="btnpress">PingPong</button>
+              </p>
+              <p id="warning" class="text-danger text-center" style="font-size: 13px; margin: 0px; padding: 0px;"></p>
+              <div style="width: 100% background-color:#ede; height: 300px; overflow-y: auto;">
+              <ul id="returnednums">
+<!--                    <li>1</li>
+                   <li>2</li>
+                   <li>3</li>
+                   <li>6</li> -->
+               </ul> 
+              </div>
+            </div>
+            
+          </div>
+        </div>
       </div>
 
-
+      <p style="color: #fff; text-align: center; margin-top: 5px;">2017 &copy Peter Kariuki Mutuura</p>
     </div><!-- /.container -->
 
 
@@ -58,6 +103,6 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+ <script src="js/scripts.js"></script>
   </body>
 </html>
